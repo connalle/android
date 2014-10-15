@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/action_savenote"
+        android:title="@string/save"
+        android:icon="@drawable/ic_action_save"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/action_sharenote"
+        android:title="@string/share"
+        android:icon="@drawable/ic_action_share"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="2"/>
+
+    <item android:id="@+id/action_exportnote"
+        android:title="Export as Text File"
+        android:icon="@drawable/ic_action_export"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="3"/>
+
+    <item android:id="@+id/action_discardnote"
+        android:title="@string/discard"
+        android:icon="@drawable/ic_action_discard"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="4"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/settings"
+        android:titleCondensed="Settings"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="never"/>
+
+</menu>

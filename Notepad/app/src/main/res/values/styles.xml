@@ -1,0 +1,158 @@
+<resources>
+
+    <!-- Red Color Theme-->
+    <style name="NotePadApp_Red" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/NotepadActionBar_Red</item>
+        <item name="android:actionModeStyle">@style/NotepadActionMode_Red</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow_Red</item>
+        <item name="android:actionBarItemBackground">@drawable/btn_actionbar_red</item>
+    </style>
+
+    <style name="NotepadActionBar_Red" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/red07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Red</item>
+    </style>
+
+    <style name="NotepadActionBarTitle_Red" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="NotepadActionMode_Red" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/red07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Red</item>
+    </style>
+
+    <style name="NotepadActionModeTitle_Red" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="OverFlow_Red" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <!-- Blue -->
+    <style name="NotePadApp_Blue" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/NotepadActionBar_Blue</item>
+        <item name="android:actionModeStyle">@style/NotepadActionMode_Blue</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow_Blue</item>
+        <item name="android:actionBarItemBackground">@drawable/btn_actionbar_blue</item>
+    </style>
+
+    <style name="NotepadActionBar_Blue" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/blue07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Blue</item>
+    </style>
+
+    <style name="NotepadActionBarTitle_Blue" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="NotepadActionMode_Blue" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/blue07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Blue</item>
+    </style>
+
+    <style name="NotepadActionModeTitle_Blue" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="OverFlow_Blue" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <!-- Orange -->
+    <style name="NotePadApp_Orange" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/NotepadActionBar_Orange</item>
+        <item name="android:actionModeStyle">@style/NotepadActionMode_Orange</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow_Orange</item>
+        <item name="android:actionBarItemBackground">@drawable/btn_actionbar_orange</item>
+    </style>
+
+    <style name="NotepadActionBar_Orange" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/orange07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Orange</item>
+    </style>
+
+    <style name="NotepadActionBarTitle_Orange" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="NotepadActionMode_Orange" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/orange07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Orange</item>
+    </style>
+
+    <style name="NotepadActionModeTitle_Orange" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="OverFlow_Orange" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <!-- Green -->
+    <style name="NotePadApp_Green" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/NotepadActionBar_Green</item>
+        <item name="android:actionModeStyle">@style/NotepadActionMode_Green</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow_Green</item>
+        <item name="android:actionBarItemBackground">@drawable/btn_actionbar_green</item>
+    </style>
+
+    <style name="NotepadActionBar_Green" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/green07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Green</item>
+    </style>
+
+    <style name="NotepadActionBarTitle_Green" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="NotepadActionMode_Green" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/green07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Green</item>
+    </style>
+
+    <style name="NotepadActionModeTitle_Green" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="OverFlow_Green" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <!-- Purple -->
+    <style name="NotePadApp_Purple" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/NotepadActionBar_Purple</item>
+        <item name="android:actionModeStyle">@style/NotepadActionMode_Purple</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow_Purple</item>
+        <item name="android:actionBarItemBackground">@drawable/btn_actionbar_purple</item>
+    </style>
+
+    <style name="NotepadActionBar_Purple" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/purple07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Purple</item>
+    </style>
+
+    <style name="NotepadActionBarTitle_Purple" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="NotepadActionMode_Purple" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/purple07</item>
+        <item name="android:titleTextStyle">@style/NotepadActionBarTitle_Purple</item>
+    </style>
+
+    <style name="NotepadActionModeTitle_Purple" parent="android:TextAppearance.Holo.Medium">
+        <item name="android:textColor">@color/light14</item>
+    </style>
+
+    <style name="OverFlow_Purple" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+</resources>

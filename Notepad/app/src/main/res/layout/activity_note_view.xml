@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_note_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultBackground">
+
+    <EditText
+        android:id="@+id/et_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/font_size_large"
+        android:hint="Enter Title"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et_note_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_note_title"
+        android:layout_above="@+id/ll_note_view_bottom_bar"
+        android:textSize="@dimen/font_size_medium"
+        android:gravity="start"
+        android:hint="Enter Content"/>
+
+        <LinearLayout
+            android:id="@+id/ll_note_view_bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/iv_note_view_alarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/textbox_padding_micro"
+                android:paddingTop="@dimen/textbox_padding_micro"
+                android:layout_weight="1"
+                android:src="@drawable/ic_action_alarms"
+                android:background="@drawable/btn_bottombar_note_view"/>
+
+            <ImageView
+                android:id="@+id/iv_note_view_starred"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/textbox_padding_micro"
+                android:paddingTop="@dimen/textbox_padding_micro"
+                android:layout_weight="1"
+                android:src="@drawable/ic_action_not_important"
+                android:background="@drawable/btn_bottombar_note_view"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

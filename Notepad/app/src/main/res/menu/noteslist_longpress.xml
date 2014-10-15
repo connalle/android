@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_sharenotes"
+        android:title="@string/share"
+        android:icon="@drawable/ic_action_share"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+
+    <item android:id="@+id/action_exportnotes"
+        android:title="Export as Text File"
+        android:icon="@drawable/ic_action_export"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="2"/>
+
+    <item android:id="@+id/action_discardnotes"
+        android:title="@string/discard"
+        android:icon="@drawable/ic_action_discard"
+        android:showAsAction="ifRoom"
+        android:orderInCategory="3"/>
+</menu>

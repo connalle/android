@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_theme_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_large"
+        android:text="Select Theme"
+        android:paddingLeft="@dimen/textbox_padding_micro"
+        android:paddingRight="@dimen/textbox_padding_micro"/>
+
+    <RadioGroup
+        android:id="@+id/rg_theme_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tv_theme_select">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_red"
+            android:background="@drawable/btn_actionbar_red"
+            android:button="@null"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_green"
+            android:background="@drawable/btn_actionbar_green"
+            android:button="@null"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_blue"
+            android:background="@drawable/btn_actionbar_blue"
+            android:button="@null"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_orange"
+            android:background="@drawable/btn_actionbar_orange"
+            android:button="@null"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_purple"
+            android:background="@drawable/btn_actionbar_purple"
+            android:button="@null"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rg_theme_select"
+        android:background="@color/notesSeparator" />
+</RelativeLayout>
